@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+            display: block;
+        }
+
+        @media (max-width: 1000px) {
+            .main {
+                margin: auto;
+            }
+        }
+
+        @media (max-width: 780px) {
+            .main, aside {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 780px) {
+            footer {
+                display: block;
+            }
+        }
+
+        .main {
+            width: 70%;
+            text-align: center;
+        }
+
+        .navbar {
+            width: 25%;
+        }
+
+        aside {
+            float: right;
+            width: 70%;
+            background: wheat;
+            padding: 3px;
+            border-top: 5px solid black;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;
+            border-radius: 1rem;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            color: whitesmoke;
+            background-color: darkgrey;
+        }
+
+        .main > .noticia1 {
+            background-color: wheat;
+            margin: auto;
+            padding: 10px;
+            border-top: 10px solid rebeccapurple;
+            border-left: 10px solid rebeccapurple;
+            border-right: 10px solid rebeccapurple;
+            border-bottom: 10px solid rebeccapurple;
+            border-radius: 1rem;
+            margin: 10px;
+            display: block;
+        }
+
+        .main > imagem1 {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .main > .noticia2 {
+            background-color: wheat;
+            margin: auto;
+            padding: 10px;
+            border-top: 10px solid rebeccapurple;
+            border-left: 10px solid rebeccapurple;
+            border-right: 10px solid rebeccapurple;
+            border-bottom: 10px solid rebeccapurple;
+            border-radius: 1rem;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="titulo">
+        Ronaldo Notícias
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://term.ooo/">Início</a></li>
+            <li><a href="https://www.youtube.com">Notícias Recentes</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Fatos Curiosos</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <div class=noticia1>
+            <h2>Ronaldo Azevedo é encontrado morto na cidade de Rio Branco no Acre</h2>
+            <img class="imagem1" src="./noticias/assets/images/download.jpg" placeholder="Imagem do Ronaldo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis tempor scelerisque. Aenean nec felis urna. Fusce sed nunc magna. Aenean non orci vitae felis viverra faucibus. Nullam et tristique dui. Mauris imperdiet elit sed efficitur facilisis. Integer id maximus purus, in eleifend elit. Nulla placerat ligula at rutrum laoreet. Curabitur sollicitudin ullamcorper porta. Aliquam mattis sem volutpat augue laoreet, condimentum blandit erat tincidunt. Nulla facilisi. Curabitur efficitur accumsan volutpat. Sed id metus sapien. Maecenas commodo leo id fringilla commodo.</p>
+        </div>
+    
+        <div class="noticia2">
+            <h2>Esse cara que mora logo ali comprou uma Ferrari no Egito</h2>
+            <img class ="imagem2" src="./noticias/assets/images/download (1).jpg" placeholder="Sigma da Bahia com um carro fodastico">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis eleifend ligula blandit pulvinar. Aenean nec dictum orci. Duis posuere arcu eu libero efficitur vehicula. Donec vitae fermentum lacus, id vestibulum turpis. Aenean volutpat eu felis in vulputate. Nam in libero consectetur quam auctor hendrerit. Donec luctus ante sit amet est commodo semper.</p>
+        </div>
+    </main>
+
+    <aside>
+        <h3>Conteúdos Relacionados:</h3>
+        <ul>
+            <li><a href="https://www.scielo.br/j/rpc/a/PkSBmyQmCsDmnSFvkKnfyqt/?lang=pt">Alguma coisa</a></li>
+            <li><a href="https://www.bbc.com/portuguese/articles/ce8pp70ymj6o">Alguma outra coisa</a></li>
+        </ul>
+    </aside>
+
+    <footer>João Vitor Bagatini Michelon, 2026</footer>
+
+
+</body>
+</html>
